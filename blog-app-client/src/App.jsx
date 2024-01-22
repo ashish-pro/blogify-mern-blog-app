@@ -7,6 +7,7 @@ import Projects from './pages/Projects'
 import Signin from './pages/Signin'
 import SignUp from './pages/SignUp'
 import Header from './cmponents/Header'
+import FooterComp from './cmponents/FooterComp'
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='/sign-in' element= {<Signin/>} />
           <Route path='/sign-up' element={<SignUp />}/>
         </Routes>
+        <FooterComp />
 
     </BrowserRouter>
   )

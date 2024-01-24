@@ -1,5 +1,4 @@
 import { Footer } from 'flowbite-react'
-import React from 'react'
 import {Link} from 'react-router-dom'
 import {BsFacebook, BsInstagram, BsTwitterX, BsGithub, BsDribbble} from 'react-icons/bs'
 

@@ -11,6 +11,7 @@ import PrivateRouter from "./cmponents/PrivateRouter";
 import PrivateRouteAdmin from "./cmponents/PrivateRouteAdmin";
 import CreatePost from "./pages/CreatePost";
 import UpdatePost from "./pages/UpdatePost";
+import PostPage from "./pages/PostPage";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         </Route>
         <Route path="/sign-in" element={<Signin />} />
         <Route path="/sign-up" element={<SignUp />} />
+        <Route path='/post/:postSlug' element={<PostPage />} />
       </Routes>
       <FooterComp />
     </BrowserRouter>

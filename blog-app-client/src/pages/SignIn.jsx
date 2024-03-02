@@ -78,7 +78,7 @@ const Signin = () => {
             <Label value='Your password' />
             <TextInput 
             type='password'
-            placeholder='Password'
+            placeholder='Password' 
             id='password'
             onChange={handleChange}
             />

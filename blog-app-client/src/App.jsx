@@ -13,6 +13,7 @@ import CreatePost from "./pages/CreatePost";
 import UpdatePost from "./pages/UpdatePost";
 import PostPage from "./pages/PostPage";
 import ScrollToTop from "./cmponents/ScrollToTop";
+import Search from "./pages/Search";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path='/search' element={<Search />} />
         <Route element={<PrivateRouter />}>
           <Route path="/dashboard" element={<Dashboard />} />
         </Route>

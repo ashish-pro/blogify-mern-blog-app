@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Dashboard from "./pages/Dashboard";
 import Projects from "./pages/Projects";
-import Signin from "./pages/Signin";
+import Signin from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import Header from "./cmponents/Header";
 import FooterComp from "./cmponents/FooterComp";

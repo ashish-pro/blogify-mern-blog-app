@@ -19,6 +19,7 @@ mongoose.connect(process.env.MONGO)
 })
 
 const __dirname = path.resolve();
+
 const app = express();
 
 app.use(express.json());
@@ -38,9 +39,9 @@ app.use('/api/comment', commentRoutes);
 
 app.use(express.static(path.join(__dirname, '/blog-app-client/dist')));
 
-app.get('*', (req, res)=>{
-    res.sendFile(path.join(__dirname, 'blog-client-app', 'dist', 'index.html'))
-})
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'blog-app-client', 'dist', 'index.html'));
+});
 
 app.use((err, req, res, next)=>{
     const statusCode = err.statusCode || 500;

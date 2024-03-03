@@ -53,8 +53,7 @@ const SignUp = () => {
         className="font-bold dark:text-white text-4xl"
       >
         <span
-          className="px-2 py-1 bg-gradient-to-r
-       from-indigo-500 via-purple-500 to-pink-500 
+          className="px-2 py-1 bg-gradient-to-r from-fuchsia-600 to-pink-600
        rounded-lg text-white"
         >
           Blogify

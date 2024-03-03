@@ -70,15 +70,13 @@ const Signin = () => {
             <Label value='Your email' />
             <TextInput 
             type='email'
-            placeholder='Email'
             id='email' onChange={handleChange}
             />
           </div>
           <div>
             <Label value='Your password' />
             <TextInput 
-            type='password'
-            placeholder='Password' 
+            type='password' 
             id='password'
             onChange={handleChange}
             />
